@@ -90,6 +90,11 @@ document.write('<li><a href="https://github.com/openMetaAnalysis/' + repo_dir + 
 <p>Below is the forest plot for the primary outcome. Additional <a href="forest-plots/" class="master-dir" title="forest plots">Forest plots</a> may be available.
 <a href="forest-plots/Outcome-Primary.png" class="master-file"><img src="forest-plots/Outcome-Primary.png" alt="Image of forest plot of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="forest"></a></p>
 
+<div id="subgroup" style="display:block">
+<div>Below is a subgroup analysis for the primary outcome. Additional <a href="forest-plots/" class="master-dir" title="subgroup meta-analysis plots">subgroup plots</a> may be available.</div>
+<a href="forest-plots/Outcome-Primary (subgroup).png" class="master-file"><img src="forest-plots/Outcome-Primary (subgroup).png" alt="Image of subgroup meta-analysis of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="subgroup_figure"></a>
+</div>
+
 <div id="network" style="display:none">
 <div>Below is the network meta-analysis for the primary outcome. Additional <a href="network/" class="master-dir" title="network meta-analysis plots">network plots</a> may be available.</div>
 <a href="network/Outcome-Primary.png" class="master-file"><img src="network/Outcome-Primary.png" alt="Image of network meta-analysis of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="network_figure"></a>
@@ -100,12 +105,13 @@ document.write('<li><a href="https://github.com/openMetaAnalysis/' + repo_dir + 
 <a href="metaregression/Outcome-Primary.png" class="master-file"><img src="metaregression/Outcome-Primary.png" alt="Image of meta-regression of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="metaregression_figure"></a>
 </div>
 
-<div id="network" style="display:none">
-<div>Below is the network meta-analysis for the primary outcome. Additional <a href="network/" class="master-dir" title="network meta-analyses plots">network plots</a> may be available.</div>
-<a href="network/Outcome-Primary.png" class="master-file"><img src="network/Outcome-Primary.png" alt="Image of network meta-analysis of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="network_figure"></a>
+<div id="blobbogram" style="display:block">
+<div>Below is a blobbogram that includes related studies for the primariy outcome.</div>
+<a href="forest-plots/Blobbogram.png" class="master-file"><img src="forest-plots/Blobbogram.png" alt="Image of a blobbogram of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="blobbogram_figure"></a>
 </div>
 
-<p>The <SoF>Summary of Findings Table (SoF)</SoF> from the GRADE Profile is below (<a href="GRADE-profiles/" class="master-dir" title="GRADE Profiles">source files</a>).
+<div id="sof" style="display:none">
+The <SoF>Summary of Findings Table (SoF)</SoF> from the GRADE Profile is below (<a href="GRADE-profiles/" class="master-dir" title="GRADE Profiles">source files</a>).
 <a href="GRADE-profiles/Summary-of-findings-table.png" class="master-file"><img src="GRADE-profiles/Summary-of-findings-table.png" alt="Image of GRADE Summary of findings table" title="GRADEprofile" style="max-width:100%;" class="master" id="grade"></a></p>
 
 <div id="references">
@@ -118,8 +124,8 @@ document.write('<li><a href="https://github.com/openMetaAnalysis/' + repo_dir + 
 <ol>
 <li>
 <!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
-<li>Gu WJ, Wang F, Bakker J, Tang L, Liu JC. The effect of goal-directed therapy on mortality in patients with sepsis - earlier is better: a meta-analysis of randomized controlled trials. Crit Care. 2014 Oct 20;18(5):570. PMID: 25327977; PMCID: PMC4232636.</li>
-<li>Wira CR, Dodge K, Sather J, Dziura J. Meta-analysis of Protocolized Goal-Directed Hemodynamic Optimization for the Management of Severe Sepsis and Septic Shock in the Emergency Department. West J Emerg Med. 2014 Feb;15(1):51-9.  doi: <a href="http://dx.doi.org/10.5811/westjem.2013.7.6828">10.5811/westjem.2013.7.6828</a>.  PMID: 24696750; PMCID: PMC3952890.</li>
+Edris A, De Feyter S, Maes T, Joos G, Lahousse L. Monoclonal antibodies in type 2 asthma: a systematic review and network meta-analysis. Respir Res. 2019 Aug 8;20(1):179. doi: 10.1186/s12931-019-1138-3. PMID: 31395084; PMCID: PMC6688359
+Farne HA, Wilson A, Powell C, Bax L, Milan SJ. Anti-IL5 therapies for asthma. Cochrane Database Syst Rev. 2017 Sep 21;9(9):CD010834. doi: 10.1002/14651858.CD010834.pub3. PMID: 28933516; PMCID: PMC6483800.
 <!-- **to here** -->
 </li>
 </ol>
@@ -128,22 +134,19 @@ document.write('<li><a href="https://github.com/openMetaAnalysis/' + repo_dir + 
 <h3>Studies</h3></a>
 
 <h4>New Studies <em>not</em> included in the most recent review above</h4>
-
 <ol>
 <li>
 <!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
-Pending
+Menzies-Gow A, Corren J, Bourdin A, Chupp G, Israel E, Wechsler ME, Brightling CE, Griffiths JM, Hellqvist Å, Bowen K, Kaur P, Almqvist G, Ponnarambil S, Colice G. Tezepelumab in Adults and Adolescents with Severe, Uncontrolled Asthma. N Engl J Med. 2021 May 13;384(19):1800-1809. doi: 10.1056/NEJMoa2034975. PMID: 33979488.
 <!-- **to here** -->
 </li>
 </ol>
 
-         
 <h4>Studies <em>included</em> in the most recent review above</h4>
-
 <ol>
 <li>
 <!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
-Pending
+Corren J, Parnes JR, Wang L, Mo M, Roseti SL, Griffiths JM, van der Merwe R. Tezepelumab in Adults with Uncontrolled Asthma. N Engl J Med. 2017 Sep 7;377(10):936-946. doi: 10.1056/NEJMoa1704064. Erratum in: N Engl J Med. 2019 May 23;380(21):2082. PMID: 28877011.
 <!-- **to here** -->
 </li>
 </ol>
@@ -152,7 +155,7 @@ Pending
 <ol>
 <li>
 <!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
-Pending
+None
 <!-- **to here** -->
 </li>
 </ol>
@@ -162,7 +165,7 @@ Pending
 <ol>
 <li>
 <!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
-Andrews B, Muchemwa L, Kelly P, Lakhi S, Heimburger DC, Bernard GR. Simplified severe sepsis protocol: a randomized controlled trial of modified early goal-directed therapy in Zambia. Crit Care Med. 2014 Nov;42(11):2315-24. doi: 10.1097/CCM.0000000000000541. PMID: 25072757; PMCID: PMC4199893. <i>Trial was terminated early.</i>
+None
 <!-- **to here** -->
 </li>
 </ol>
